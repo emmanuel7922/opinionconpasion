@@ -1,0 +1,849 @@
+.menuPrin{
+	float:left;
+	left:0px;
+	width: auto;
+	height: auto;
+	margin: 1px 0px ;
+	position:relative;
+	top:0px;
+	padding: 0px;
+	background: #FFFFFF;
+		
+}
+
+.menuPrin a{
+	float:left;
+	text-align:center !important;
+	left: 0px !important;
+	position:relative !important;
+	width: auto !important;
+	border-right:1px solid #999999;
+	padding: 5px 10px 5px 10px !important;
+	
+	margin: 0px;
+	cursor: pointer;
+	top:0;height: 24px;
+}
+
+.menuPrin a.bt{text-decoration: none;
+
+	color:#666 !important;
+	
+}
+.menuPrin a.btSel{
+color:#000 !important;
+text-decoration:underline !important;
+}
+
+
+.goUpArrow{
+background: url(../img/iconos/formulario/go-in-up-128.png) left top no-repeat !important;
+display: block !important;
+width: 128px !important;
+height:128px !important;
+cursor: pointer;
+z-index:23839888 !important;
+
+}
+
+
+.menuSecundario{
+	float:left;
+	position:relative !important;
+	margin:4px 30px 20px;
+	width:auto;
+	z-index:24;
+	left:0px;
+    top:10px;
+	padding:0;
+	clear: left;	
+    }	
+
+ .menuSecundario .acceso,
+ .menuSecundario .accesoSel{
+	float:left;
+	width:auto;
+	margin:0px;
+	position:relative !important;
+	margin:0px 6px;
+	cursor:pointer;
+	left:0px;
+	text-align:left;
+	font-weight:bold;
+	top:0px;
+    font-size:16px;
+	padding:0;
+	display: block;
+	background:none !important;
+}
+
+ .menuSecundario .acceso a,
+ .menuSecundario .accesoSel a{
+ 	width: 100%;
+ 	left: 0;
+ 	margin: 0;
+ 	display: block;
+ 	position:relative;
+ 	padding: 4px 6px;
+ 	text-align:center;
+
+ }
+	
+ .menuSecundario .acceso a{	
+ color:#666;
+ text-decoration:none;
+ background:none !important;
+ }
+ 
+ .menuSecundario .accesoSel a{
+ 
+	 color:#333;
+	 background: #CCCCCC;
+	 text-decoration:none;
+	 }
+
+
+	
+
+.menuSec{
+	background-color: #FFFFFF;
+	height:30px;
+	position:relative !important;
+	width:100%;
+    left:0px;
+	margin:0px !important;
+	list-style: none;
+}	
+
+.menuArea,
+.menuSec{
+
+top:0px;
+float:left !important;
+padding:0 !important;
+}
+
+.menuArea{
+
+	height:30px;
+	position:relative !important;
+	width:100%;
+    left:0px !important;
+	margin:0px !important;
+	list-style: none;
+	
+}	
+
+ .menuArea .bt,
+ .menuArea .btSel{
+	float:left !important;	
+	left:0px !important;	
+	top:0px !important;
+	width:auto;
+	height:10px;
+	position:relative !important;
+	margin:0px !important;
+	cursor:pointer;
+    font-size:14px;
+	text-decoration:none;
+	border-right: 1px solid #999999;
+	text-align:center;
+		padding:8px 10px 12px;
+		display: block;
+
+}
+
+
+.menuArea .btSel a,
+.menuArea .bt a{	
+ 	 	text-decoration:none;
+}
+
+.menuArea .btSel{
+	font-weight:bold;
+	
+	
+	background: #666;
+	             }
+
+.menuArea .btSel a{	 
+color:#ccc;	 }
+.menuArea .bt a{
+color:#333;}
+
+ .menuSec .bt,
+ .menuSec .btSel{
+	float:left;
+	width:auto;
+	height:10px;
+	position:relative !important;
+	margin:0px 0px;
+	cursor:pointer;
+	left:0px;	
+	top:0px;
+    font-size:14px;
+	text-decoration:none;
+	border-right: 1px solid #999999;
+	text-align:center;
+	padding:8px 10px 12px;
+}
+
+	 .menuSec .bt{	
+	 	background:#FFFFFF; 
+        color:#666666;
+                 }
+
+ .menuSec .btSel {
+	font-weight:bold;
+	color:#222;
+	text-decoration:none;
+	            }
+	 
+	.menuSeccion{
+		height: 48px;
+		width: 100%;
+		background: #666;
+		z-index: 333333;
+		padding:0;
+		
+	}
+
+  .menuSeccion li{
+  	position:relative;
+  	float:left;
+  	left:30px;
+  height: 5px;
+  padding: 16px 10px;
+  text-align: center;
+  	bottom:0px;
+  	margin:10px 1px 0px;
+  	text-decoration:none;
+  border-top-right-radius:4px;
+  list-style:none;
+  
+  }
+
+  .menuSeccion li a{
+  	text-decoration:none;
+  	color:#333;
+  }
+
+  .menuSeccion li.bt{   	
+background:#ccc;
+  color:#333;
+  }
+   
+.menuSeccion li.btSel{ 
+	color:#000; 
+	background:#999;
+  }
+
+
+  .herr{			
+	padding:0px ;
+    right:0px;
+    margin:0 !important;
+   float:right;
+   font-size: 24px !important;
+   color:#FFFFFF !important;
+    top:0px;
+	font-weight:bold;
+	text-align:center !important;
+	cursor: pointer;
+		list-style:none !important;
+		text-indent: 0 !important;		
+		height:auto;
+		width:auto;
+		position:relative;		
+		box-sizing:content-box !important;
+}
+
+
+.herr .elim,
+.herr .edit,
+.herr .ampl,
+.herr .rcrt,
+.herr .stck{
+	list-style:none !important;
+	float:left !important;
+	position:relative ;
+	margin:0px;
+	left:1px;
+	top:0px;
+	width:30px !important;
+	height:30px !important;
+	cursor:pointer;
+	padding: 0 !important;
+	display:block;}
+
+
+.herr_gde .elim,
+.herr_gde .edit,
+.herr_gde .ecar,
+.herr_gde .stck{
+	list-style:none !important;
+	float:left !important;
+	position:relative ;
+	margin:0px 3px;
+	left:1px;
+	top:0px;
+	width:40px !important;
+	height:50px !important;
+	cursor:pointer;
+	padding: 0 !important;
+	display:block;}
+
+
+ .herr .elim{
+	background:url(../img/iconos/panel_archivos/elimReg.png) left top no-repeat;}
+
+.herr .stck{
+	background:url(../img/iconos/panel_archivos/ico_inventario.png) left top no-repeat;}	
+ .herr .edit{
+	background:url(../img/iconos/panel_archivos/editReg.png) left top no-repeat;}
+ .herr .ampl{
+	background:url(../img/iconos/panel_archivos/amplReg.png) left top no-repeat;}
+	 .herr .rcrt{
+	background:url(../img/iconos/panel_archivos/rcrtReg.png) left top no-repeat;}
+
+.herr_gde .elim{
+	background:url(../img/iconos/panel_archivos/herr_gde/elim-gde.png) center center no-repeat;	
+}
+
+.herr_gde .stck{
+	background:url(../img/iconos/panel_archivos/herr_gde/stck-gde.png) center center no-repeat;	
+}
+
+.herr_gde .ecar{
+	background:url(../img/iconos/panel_archivos/herr_gde/ecar-gde.png) center center no-repeat;
+}
+  
+  .listadoGeneral .herr .agr {
+  	width:30px !important;
+  	height:35px !important;
+  	background: url(../img/iconos/herr/lyt-ico-agr.png) left top no-repeat  !important;
+  	float:left  !important;
+  	left:0  !important;
+  	position:relative !important;
+                       }
+					   
+
+  	 
+	 
+.panelInicio{
+	width: 100%; 
+	left: 0; 
+	margin: 10px 0px; 
+	position: relative; 
+	float: left; 
+	top: 0;
+	
+	height: 200px;
+}
+
+.panelInicio a{
+	width: 120px !important;
+	margin: 0 !important;
+	float:left;
+	left: 0;
+}
+
+.menuVisual{
+	clear: both;
+	left: 30px;
+	top:0px;
+	margin: 10px 0px 0px;
+}
+
+.menuVisual .mas,
+.menuVisual .menos,
+.menuVisual .masSel,
+.menuVisual .menosSel,
+.menuVisual{
+	float:left;	
+	position:relative;
+	height: 50px;
+	
+}
+
+.menuVisual .mas,
+.menuVisual .menos,
+.menuVisual .masSel,
+.menuVisual .menosSel{
+width: 80px;
+left:0;
+}
+
+.menuVisual .mas{
+	background: url(../img/iconos/formulario/ico_fr_gde.png) left top no-repeat;
+}
+
+.menuVisual .menos{
+background: url(../img/iconos/formulario/ico_fr_rpd.png) left top no-repeat;	
+}
+
+.menuVisual .masSel{
+	background: url(../img/iconos/formulario/ico_fr_gde_sel.png) left top no-repeat;
+}
+
+.menuVisual .menosSel{
+background: url(../img/iconos/formulario/ico_fr_rpd_sel.png) left top no-repeat;	
+}
+
+.menuPromo{
+height: 40px;
+width: auto;
+clear:both;
+float:left;
+position:relative;
+left:0;
+top:-30px;
+margin: 0;	
+}
+
+.menuPromo li a,
+.menuPromo li{
+position:relative;
+float:left;
+left:0;}
+
+.menuPromo li{
+width: auto;
+padding: 0px;	
+list-style: none;
+background: #666666;
+height: 40px;
+margin: 0px 1px;
+}
+
+.menuPromo .sel{
+	background: #FCFCFC;
+	border-top:1px solid #666666;
+	border-right:1px solid #666666;
+	border-left:1px solid #666666;
+	
+	
+}
+.menuPromo .sel a{
+color:#666666 !important;
+}
+
+.menuPromo li a{
+	
+	width:auto;
+	text-align:center;
+	height:20px;
+	padding:10px;
+	text-decoration:none;
+	color:#FFFFFF; 
+}
+
+.cuadroBalance .menu{
+float:left;
+position:relative;
+left: 0;
+height: 30px;	
+width: 800px;
+top: -50px;
+margin: 0;
+}
+
+.cuadroBalance .menu li,
+.cuadroBalance .menu li a{
+	float:left;
+	position:relative;
+	left: 0;
+	width: auto;
+	list-style: none;
+	margin: 0px 1px;
+}
+
+.cuadroBalance .menu li {
+text-align:center;
+padding:0px;}
+
+.cuadroBalance .menu li a{
+height: 10px;	
+border-top:1px solid #FFFFFF;
+border-right:1px solid #FFFFFF;
+border-left:1px solid #FFFFFF;	
+padding:4px 10px 16px;
+color:#5b3c3c;
+text-decoration: none;
+}
+
+.cuadroBalance .menu li a.sel{
+background:#CCCCCC;
+color: #ef5655;
+}
+
+.cntMenuXls{
+	padding:2px 0 2px;
+	
+	overflow-x:auto;
+	border-bottom:1px solid #333;
+}
+
+ul.menuExcel {
+	float:left;
+	left:0;
+  list-style:none;
+  margin:10px 4px 2px;
+  padding:0;
+  width:1180px;
+}
+
+
+ul.menuExcel li {
+  display:inline;
+  height:40px !important;
+  display:block;
+  float:left;
+  position:relative;
+  left:0;
+  background:#999;
+  border-left:1px solid #fff;
+  padding:0px 0px;
+  }
+
+  ul.menuExcel li a.active {
+  	background-color:#444;
+  	color:#fcfcfc;
+  }
+
+ul.menuExcel li a {
+  text-decoration:none;
+  padding:15px 0 5px;
+  width:100px;
+  color:#222;
+  float:left;
+  text-align:center;
+  font-size:12px;
+  height:20px;
+}
+
+ul.menuExcel li a:hover {
+  background:#ccc;
+  color:#222
+}
+
+.btplus{
+	height:10px;
+	padding:10px 0 20px !important;
+	
+}
+
+#creaNvaNta{
+	background:url(../img/botones/general/btAgregar280px.png) left top no-repeat !important;
+	color:#555 !important;
+	font-size:20px ;
+	font-weight:bold !important;
+	text-indent:40px;
+	 
+}
+
+
+	.amas{	
+	background-color:#333;
+	width:5px !important;
+	height:5px !important;
+    padding: 6px 20px 25px 8px  !important;
+    display: block;
+	cursor:pointer !important;
+	border:none !important;
+    right:0px !important;
+    top:0;
+	float:right !important;
+	position:absolute !important;
+	clear: both;
+    text-decoration:none;
+	font-weight: bold;
+	font-size:20px !important;
+
+    color:#fff !important;
+    box-sizing:content-box !important;
+	}
+
+.amas-bus{
+	background:url(../img/iconos/herr/ico-bus-50-40.png) left top no-repeat;
+}
+
+#accBuscarCliente{
+	display:none;
+}
+
+ .cerrar{
+	float:right !important;
+	right:0px !important;
+	top:0px !important;
+	width:20px !important;
+	padding: 2px   !important;
+	cursor:pointer;
+	position:relative !important;
+	color:#333;	
+	margin: 5px 10px  0 0 !important;
+	display:inline !important;
+	outline: 0;
+	z-index: 2333222;
+	border:1px solid #666 !important;
+	border-radius:3px;
+	background-color:#fff;
+    text-decoration: none !important;
+    text-align: center !important;
+    font-size:22px;
+	text-indent:0 !important;
+    font-weight:normal;
+    box-sizing: content-box !important;
+}
+
+.fndTrs .cerrar{
+	background-color:#222; 
+	color:#ffffff !important;
+}
+
+ .cerrarGdeEsq{
+ 	position:absolute !important;
+ 	float:right !important;
+	right:0 !important;
+	top:0px !important;
+	width:80px !important;
+	height:80px;
+	padding: 0px !important;
+	cursor:pointer;	
+	margin: 0 !important;
+	display:inline !important;
+	outline: 0;
+	z-index: 2333222;
+	border: none !important;
+    text-decoration: none !important;
+    box-sizing: content-box;	
+background:url(../img/iconos/formulario/cdro_cerrar.png) left top no-repeat;
+}
+
+
+.acceso{
+    background-color: #555;
+    color: white;
+    padding: 6px 12px !important;
+    text-align: center;
+    text-indent: 0 !important;
+    text-decoration: none;
+    border-radius:8px;
+    border:2px solid #eee;
+    cursor: pointer;
+    margin: 12px 10px;
+    font-size: 14px;
+}
+
+.acceso:hover, 
+.acceso:active {
+    background-color:#444;
+    border:2px dotted #eee;
+    } 
+
+
+
+
+.icoRegresar{
+background:url(../img/iconos/formulario/ico_regresar.png) left top no-repeat;	
+width:50px !important;
+height:50px !important;
+margin:10px;
+z-index:123224 !important;
+display:block !important;
+}
+
+#accCerrarVtnAbono{
+	width:35px;
+	height:21px;
+	cursor:pointer;
+	
+	top:0;
+	margin:20px 28px;
+}
+
+
+.emergenteAbono #accAgregarAbono{
+	
+	float:right;
+	right:50px;
+	bottom:27px;
+	position:absolute;
+	width:40px;
+	height:36px;
+cursor:pointer;
+}
+
+
+#areaBtnVenta{
+	display: none;
+}
+
+.icoPromoPri,
+.icoPromoMsr,
+.icoPromoCup,
+.icoPromoPaq,
+.icoPromoDdir,
+.icoPromoReg{
+	position: relative;
+	float:left;
+	left:0;
+	margin:0px 2px;
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+display:none;
+}
+
+.icoPromoPaq{	
+background:url(../img/iconos/herr/promociones/ico_prm_paq.png) left top no-repeat;
+}
+
+.icoPromoPri{	
+background:url(../img/iconos/herr/promociones/ico_prm_pri.png) left top no-repeat;
+}
+
+.icoPromoCup{	
+background:url(../img/iconos/herr/promociones/ico_prm_cup.png) left top no-repeat;
+}
+
+.icoPromoMsr{	
+background:url(../img/iconos/herr/promociones/ico_prm_msr.png) left top no-repeat;
+}
+
+.icoPromoDdir{	
+background:url(../img/iconos/herr/promociones/ico_prm_ddir.png) left top no-repeat;
+}
+.icoPromoReg{	
+background:url(../img/iconos/herr/promociones/ico_prm_reg.png) left top no-repeat;
+}
+
+
+
+
+.panelDinamico .menu{
+ background-color: #666;
+    box-sizing: content-box;
+                    }
+
+.panelDinamico #optMenuDinamPro{
+width:1300px ;
+}
+
+
+.panelDinamico .menu  li.sel,
+.panelDinamico .menu  li{
+	float:left !important;
+  left:0px;
+  position:relative;
+	margin:0px !important;
+	width:220px !important;
+	height:20px !important;
+	padding:15px 0px 5px;
+	cursor:pointer;
+	display: inline-block !important;
+	text-decoration:none;
+	
+	text-transform: uppercase;
+	color: #333333; 
+	box-sizing: content-box;
+    border: none ;
+	}
+
+.panelDinamico .menu li{
+	font-size: 11px;
+	text-align:center !important;
+	background:url(../img/botones/menu/fnd_bt_pnl_din.png) left top no-repeat;
+}
+
+.panelDinamico .menu  li.btSel{
+	font-size: 9px;
+	text-indent:25px;
+	text-align:left !important;
+    font-weight: bold;
+	background:url(../img/botones/menu/fnd_bt_sel_pnl_din.png) left top no-repeat;
+}
+
+.panelDinamico .menu  li a{
+text-decoration: none;
+color:#333;
+}
+
+  .menuOpciones a.subElim,
+.listadoGeneral .menu  a.subElim,
+.panelDinamico .menu  a.subElim{
+    display: none;
+	background:url(../img/iconos/subeliminarsm.png) left top no-repeat #000 !important;}
+
+  .menuOpciones a.subAgre,
+.listadoGeneral .menu  a.subAgre,
+.panelDinamico .menu  a.subAgre{
+	background:url(../img/iconos/subagregarsm.png) left top no-repeat #fff;}
+
+ .menuOpciones a.subList,
+.listadoGeneral .menu  a.subList,
+.panelDinamico .menu  a.subList{
+	background:url(../img/iconos/sublistarsm.png) left top no-repeat #fff;}
+	
+	  .menuHerr .lst{	
+background:url(../img/iconos/herr/ico-lst.png) left top no-repeat;
+}
+  .menuHerr .mdf{	
+background:url(../img/iconos/herr/ico-mdf.png) left top no-repeat;
+}
+  .menuHerr .agr{
+background:url(../img/iconos/herr/ico-agr.png) left top no-repeat;
+}
+  .menuHerr .eli{
+background:url(../img/iconos/herr/ico-eli.png) left top no-repeat;
+}
+  .menuHerr .img{
+background:url(../img/iconos/herr/administrar_imagenes.png) left top no-repeat;
+}	 
+
+  .menuHerr .lstOv{	
+background:url(../img/iconos/herr/ico-lst-ov.png) left top no-repeat;
+}
+  .menuHerr .mdfOv{	
+background:url(../img/iconos/herr/ico-mdf-ov.png) left top no-repeat;
+}
+  .menuHerr .agrOv{
+background:url(../img/iconos/herr/ico-agr-ov.png) left top no-repeat;
+}
+  .menuHerr .eliOv{
+background:url(../img/iconos/herr/ico-eli-ov.png) left top no-repeat;
+}
+
+#admListaPromo{
+width:450px;
+clear:right;
+margin-left:30px !important;
+border-radius:10px;	
+}
+
+
+#menuPromoListaCdro{
+	
+}
+
+
+
+	.icoMaximizar{
+		background:url(../img/iconos/maximizarForm.png) left top no-repeat;
+	}
+	.icoMinimizar{
+	background:url(../img/iconos/minimizarForm.png) left top no-repeat;
+	}
+
+
+	.menuEdtImg .btimg a.rct{		
+		background:url(../img/iconos/panel_archivos/rcrtGris30px.png) center center no-repeat  #333;
+		}
+	  
+	   .menuEdtImg .btimg a.txt{
+		background:url(../img/iconos/panel_archivos/txt_gris_30px.png) center center no-repeat #333;
+		}
+		
+	  .menuEdtImg .btimg a.imgp{
+		background:url(../img/iconos/panel_archivos/img_gris_30px.png) center center no-repeat #333;
+		}

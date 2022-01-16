@@ -1,0 +1,1 @@
+<div class='slide' id='cdroCrearCta'><a href="{target_crea_cta}" id="accCrearCuenta" class="acceso">Crear una cuenta</a> </div> 
